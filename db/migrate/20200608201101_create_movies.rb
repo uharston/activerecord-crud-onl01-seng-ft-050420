@@ -6,5 +6,6 @@ class CreateMovies < ActiveRecord::Migration[5.2]
       m.string :director
       m.string :lead
       m.boolean :in_theaters
+    end 
   end
 end
